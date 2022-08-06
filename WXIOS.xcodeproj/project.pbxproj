@@ -14,6 +14,8 @@
 		708F4E82289E225E007BB34A /* WXAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E80289E225E007BB34A /* WXAudio.m */; };
 		708F4E88289E22AA007BB34A /* WXGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E86289E22AA007BB34A /* WXGUI.h */; };
 		708F4E89289E22AA007BB34A /* WXGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E87289E22AA007BB34A /* WXGUI.m */; };
+		708F4E91289E2407007BB34A /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E8F289E2407007BB34A /* Utilities.h */; };
+		708F4E92289E2407007BB34A /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E90289E2407007BB34A /* Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		708F4E80289E225E007BB34A /* WXAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAudio.m; sourceTree = "<group>"; };
 		708F4E86289E22AA007BB34A /* WXGUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXGUI.h; sourceTree = "<group>"; };
 		708F4E87289E22AA007BB34A /* WXGUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGUI.m; sourceTree = "<group>"; };
+		708F4E8F289E2407007BB34A /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		708F4E90289E2407007BB34A /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				708F4E6F289E21EA007BB34A /* WXIOS.h */,
+				708F4E8F289E2407007BB34A /* Utilities.h */,
+				708F4E90289E2407007BB34A /* Utilities.m */,
 				708F4E84289E2264007BB34A /* AUDIO */,
 				708F4E7D289E2243007BB34A /* MIDI */,
 				708F4E8C289E22B1007BB34A /* GUI */,
@@ -105,6 +111,7 @@
 				708F4E88289E22AA007BB34A /* WXGUI.h in Headers */,
 				708F4E71289E21EA007BB34A /* WXIOS.h in Headers */,
 				708F4E7A289E223A007BB34A /* WXMidiPorts.h in Headers */,
+				708F4E91289E2407007BB34A /* Utilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +184,7 @@
 			files = (
 				708F4E89289E22AA007BB34A /* WXGUI.m in Sources */,
 				708F4E7B289E223A007BB34A /* WXMidiPorts.m in Sources */,
+				708F4E92289E2407007BB34A /* Utilities.m in Sources */,
 				708F4E82289E225E007BB34A /* WXAudio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
