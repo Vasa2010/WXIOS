@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		708F4E71289E21EA007BB34A /* WXIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E6F289E21EA007BB34A /* WXIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708F4E7A289E223A007BB34A /* WXMidiPorts.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E78289E223A007BB34A /* WXMidiPorts.h */; };
+		708F4E7B289E223A007BB34A /* WXMidiPorts.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E79289E223A007BB34A /* WXMidiPorts.m */; };
+		708F4E81289E225E007BB34A /* WXAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E7F289E225E007BB34A /* WXAudio.h */; };
+		708F4E82289E225E007BB34A /* WXAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E80289E225E007BB34A /* WXAudio.m */; };
+		708F4E88289E22AA007BB34A /* WXGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E86289E22AA007BB34A /* WXGUI.h */; };
+		708F4E89289E22AA007BB34A /* WXGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E87289E22AA007BB34A /* WXGUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		708F4E6C289E21EA007BB34A /* WXIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WXIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		708F4E6F289E21EA007BB34A /* WXIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXIOS.h; sourceTree = "<group>"; };
 		708F4E70289E21EA007BB34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708F4E78289E223A007BB34A /* WXMidiPorts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMidiPorts.h; sourceTree = "<group>"; };
+		708F4E79289E223A007BB34A /* WXMidiPorts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMidiPorts.m; sourceTree = "<group>"; };
+		708F4E7F289E225E007BB34A /* WXAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAudio.h; sourceTree = "<group>"; };
+		708F4E80289E225E007BB34A /* WXAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAudio.m; sourceTree = "<group>"; };
+		708F4E86289E22AA007BB34A /* WXGUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXGUI.h; sourceTree = "<group>"; };
+		708F4E87289E22AA007BB34A /* WXGUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGUI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +59,39 @@
 			isa = PBXGroup;
 			children = (
 				708F4E6F289E21EA007BB34A /* WXIOS.h */,
+				708F4E84289E2264007BB34A /* AUDIO */,
+				708F4E7D289E2243007BB34A /* MIDI */,
+				708F4E8C289E22B1007BB34A /* GUI */,
 				708F4E70289E21EA007BB34A /* Info.plist */,
 			);
 			path = WXIOS;
+			sourceTree = "<group>";
+		};
+		708F4E7D289E2243007BB34A /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				708F4E78289E223A007BB34A /* WXMidiPorts.h */,
+				708F4E79289E223A007BB34A /* WXMidiPorts.m */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		708F4E84289E2264007BB34A /* AUDIO */ = {
+			isa = PBXGroup;
+			children = (
+				708F4E7F289E225E007BB34A /* WXAudio.h */,
+				708F4E80289E225E007BB34A /* WXAudio.m */,
+			);
+			path = AUDIO;
+			sourceTree = "<group>";
+		};
+		708F4E8C289E22B1007BB34A /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				708F4E86289E22AA007BB34A /* WXGUI.h */,
+				708F4E87289E22AA007BB34A /* WXGUI.m */,
+			);
+			path = GUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +101,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708F4E81289E225E007BB34A /* WXAudio.h in Headers */,
+				708F4E88289E22AA007BB34A /* WXGUI.h in Headers */,
 				708F4E71289E21EA007BB34A /* WXIOS.h in Headers */,
+				708F4E7A289E223A007BB34A /* WXMidiPorts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708F4E89289E22AA007BB34A /* WXGUI.m in Sources */,
+				708F4E7B289E223A007BB34A /* WXMidiPorts.m in Sources */,
+				708F4E82289E225E007BB34A /* WXAudio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
