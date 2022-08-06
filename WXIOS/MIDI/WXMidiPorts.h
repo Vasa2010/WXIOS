@@ -19,19 +19,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)     NSMutableArray      *ArrayOfDestinationMidiDevices;
 
 -(void)refresh;
-//-(void)listDevices;
-
-
-
-
-
-
 
 
 
 
 +(instancetype)sharedInstance;
-
+-(instancetype)init;
 @end
 
 NS_ASSUME_NONNULL_END

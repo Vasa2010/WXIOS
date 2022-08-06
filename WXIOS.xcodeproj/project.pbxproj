@@ -16,6 +16,8 @@
 		708F4E89289E22AA007BB34A /* WXGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E87289E22AA007BB34A /* WXGUI.m */; };
 		708F4E91289E2407007BB34A /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E8F289E2407007BB34A /* Utilities.h */; };
 		708F4E92289E2407007BB34A /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E90289E2407007BB34A /* Utilities.m */; };
+		708F4E9C289E2DB0007BB34A /* WXChordRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 708F4E9A289E2DB0007BB34A /* WXChordRecognizer.h */; };
+		708F4E9D289E2DB0007BB34A /* WXChordRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F4E9B289E2DB0007BB34A /* WXChordRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		708F4E87289E22AA007BB34A /* WXGUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGUI.m; sourceTree = "<group>"; };
 		708F4E8F289E2407007BB34A /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		708F4E90289E2407007BB34A /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		708F4E9A289E2DB0007BB34A /* WXChordRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXChordRecognizer.h; sourceTree = "<group>"; };
+		708F4E9B289E2DB0007BB34A /* WXChordRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXChordRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 			children = (
 				708F4E78289E223A007BB34A /* WXMidiPorts.h */,
 				708F4E79289E223A007BB34A /* WXMidiPorts.m */,
+				708F4E9A289E2DB0007BB34A /* WXChordRecognizer.h */,
+				708F4E9B289E2DB0007BB34A /* WXChordRecognizer.m */,
 			);
 			path = MIDI;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708F4E9C289E2DB0007BB34A /* WXChordRecognizer.h in Headers */,
 				708F4E81289E225E007BB34A /* WXAudio.h in Headers */,
 				708F4E88289E22AA007BB34A /* WXGUI.h in Headers */,
 				708F4E71289E21EA007BB34A /* WXIOS.h in Headers */,
@@ -182,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708F4E9D289E2DB0007BB34A /* WXChordRecognizer.m in Sources */,
 				708F4E89289E22AA007BB34A /* WXGUI.m in Sources */,
 				708F4E7B289E223A007BB34A /* WXMidiPorts.m in Sources */,
 				708F4E92289E2407007BB34A /* Utilities.m in Sources */,
