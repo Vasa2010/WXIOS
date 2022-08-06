@@ -18,4 +18,6 @@ FOUNDATION_EXPORT const unsigned char WXIOSVersionString[];
 #import "WXAudio.h"
 #import "WXMidiPorts.h"
 
+#import "WXGUI.h"
+
 
